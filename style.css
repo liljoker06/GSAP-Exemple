@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+  
+.logo-container {
+    position: relative;
+    width: 300px; 
+    height: 300px;
+}
+  
+.main-logo {
+    background: #3b5998;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow added for depth */
+}
+  
+.main-logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+  
+.design-element {
+    background: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translate(150px); 
+}
+
+#element1 { transform: translate(-50%, -50%) rotate(0deg) translate(150px); }
+#element2 { transform: translate(-50%, -50%) rotate(36deg) translate(150px); }
+#element3 { transform: translate(-50%, -50%) rotate(72deg) translate(150px); }
+#element4 { transform: translate(-50%, -50%) rotate(108deg) translate(150px); }
+#element5 { transform: translate(-50%, -50%) rotate(144deg) translate(150px); }
+#element6 { transform: translate(-50%, -50%) rotate(180deg) translate(150px); }
+#element7 { transform: translate(-50%, -50%) rotate(216deg) translate(150px); }
+#element8 { transform: translate(-50%, -50%) rotate(252deg) translate(150px); }
+#element9 { transform: translate(-50%, -50%) rotate(288deg) translate(150px); }
+#element10 { transform: translate(-50%, -50%) rotate(324deg) translate(150px); }
+
+.new-icon {
+    position: absolute;
+    width: 50px; /* ou la taille que vous souhaitez */
+    height: 50px; /* ou la taille que vous souhaitez */
+    background-color: blue; /* ou toute autre couleur de remplissage */
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* pour s'assurer qu'elles sont derrière les autres éléments */
+  }
+  
